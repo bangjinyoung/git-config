@@ -1,2 +1,13 @@
 [include]
 	path = ./gitalias/gitalias.txt
+
+[alias]
+	ll = log \
+    --graph \
+    --topo-order \
+    --decorate \
+    --all \
+    --boundary \
+    --date=short \
+    --abbrev-commit \
+    --pretty=format:'%C(green)%ad %C(yellow)%h%Creset -%C(red)%d%Creset %s'
