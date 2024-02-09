@@ -10,4 +10,4 @@
     --boundary \
     --date=short \
     --abbrev-commit \
-    --pretty=format:'%C(green)%ad %C(yellow)%h%Creset -%C(red)%d%Creset %s'
+    --pretty=format:'%C(green)%ad %C(yellow)%h%Creset -%C(auto)%d%Creset %s'
